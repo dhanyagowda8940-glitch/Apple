@@ -1,0 +1,44 @@
+public clas Shape{
+void draw(){
+System.out.println("Drawing Shape");
+}
+void erase(){
+System.out.println("Erasing shape");
+}
+static class Cirle extends Shape{
+void draw(){
+Sytem.out.println("Drawing Circle");
+}
+void erase(){
+System.out.println("Erasing Cricle");
+}
+}
+Static class Triangle extends Shape{
+void draw(){
+System.out.println("Drawing Triangle");
+}
+void erase(){
+System.out.println("Erasing Triangle");
+}
+}
+Static clss Square extends Shape{
+void draw(){
+System.out.println("Drawing Square");
+}
+void erase(){
+System.out.println("Erasing Square");
+}
+}
+public static void main(String[]args){
+Shapes;
+s=new Cricle();
+s.draw();
+s.erase();
+s=Triangle();
+s.draw();
+s.erase();
+s=Square();
+s.draw();
+s.erase();
+}
+}
